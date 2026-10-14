@@ -15,6 +15,9 @@ Apuntes del módulo **Programación multimedia y dispositivos móviles** de **2�
 | [Arquitectura de la plataforma Android](arquitectura_android.md) | Las capas de Android (kernel de Linux, HAL, librerías nativas y ART, framework y aplicaciones) y cómo se ejecuta tu código en el dispositivo |
 | [El sistema de vistas (Views + XML)](sistema_de_vistas.md) | Cómo se construyen interfaces con `View`, `ViewGroup`, layouts XML y View Binding, y por qué empezamos con Views en lugar de Jetpack Compose |
 | [Estructura de una aplicación Android](estructura_app_android.md) | Los cuatro componentes, los intents, el manifiesto, los recursos y la clase `R`, y los ficheros de Gradle |
+| [Actividades: `MainActivity` y su layout](actividades_mainactivity.md) | Qué es una actividad, el código que genera Android Studio línea a línea, `ConstraintLayout` y una app contador de ejemplo |
+| [El ciclo de vida de las actividades](ciclo_vida_actividades.md) | Estados y callbacks, qué ocurre en cada situación (giro, Inicio, Atrás, navegación) y cómo guardar el estado con `onSaveInstanceState()` |
+| [Depuración y logs](depuracion_logs.md) | La clase `Log`, la ventana Logcat y sus filtros, cómo leer una traza de error y cómo usar el depurador |
 
 Se recomienda leerlos **en este orden**: cada documento se apoya en el anterior.
 
