@@ -32,9 +32,9 @@ Android gestiona todo esto por nosotros: **crea, pausa, detiene y destruye** las
 ## 2. Los estados y los callbacks
 
 ```
-                 ┌─────────────────┐
+                 ┌──────────────────┐
                  │ Actividad lanzada│
-                 └────────┬────────┘
+                 └────────┬─────────┘
                           ▼
                      onCreate()
                           │
